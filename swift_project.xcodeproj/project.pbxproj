@@ -27,6 +27,7 @@
 		1EA6A6A4308B6C82007F60A3 /* swift_project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swift_project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EA6A6B3308B6C85007F60A3 /* swift_projectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swift_projectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EA6A6BD308B6C85007F60A3 /* swift_projectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swift_projectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EA6A6D4308B816F007F60A3 /* swift-project-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "swift-project-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -69,6 +70,7 @@
 		1EA6A69B308B6C82007F60A3 = {
 			isa = PBXGroup;
 			children = (
+				1EA6A6D4308B816F007F60A3 /* swift-project-Info.plist */,
 				1EA6A6A6308B6C82007F60A3 /* swift_project */,
 				1EA6A6B6308B6C85007F60A3 /* swift_projectTests */,
 				1EA6A6C0308B6C85007F60A3 /* swift_projectUITests */,
@@ -374,9 +376,9 @@
 				DEVELOPMENT_TEAM = 2Q5S33DWPC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "swift-project-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -406,9 +408,9 @@
 				DEVELOPMENT_TEAM = 2Q5S33DWPC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "swift-project-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
