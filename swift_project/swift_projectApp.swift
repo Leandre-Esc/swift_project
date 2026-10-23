@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct swift_projectApp: App {
+    @State private var store = UserStore()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ZStack {
+                UsersListView()
+            }
+            .environment(store)
         }
     }
 }
